@@ -17,6 +17,7 @@ const Sidebar = ({ currentPage, setCurrentPage, isOpen, setIsopen }) => {
               setCurrentPage(section);
               setIsopen(false);
             }}
+            //desktop version
             className={`text-left ${
               currentPage === section
                 ? 'text-yellow-400 font-semibold'
